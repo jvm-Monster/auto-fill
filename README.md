@@ -4,7 +4,7 @@
 The Auto-Fill App is a Python script designed to automate the process of filling in login credentials on websites. This script utilizes the Selenium library to interact with web elements and perform autofill functions.
 
 ## How To Use
-1. **Download Webdriver**: Ensure you have a compatible webdriver installed, such as Chrome webdriver, Edge webdriver, etc. The script relies on this webdriver to function properly. For this demonstration, the script uses the msedgedriver.
+1. **Download Webdriver**: Ensure you have a compatible webdriver installed, such as Chrome webdriver, Edge webdriver, etc. The script relies on this webdriver to function properly. For this demonstration, the script uses the msedgedriver(Microsoft Edge driver).
 
 2. **Configure Driver Path**: In the `main.py` file, set the `driver_path` variable to the path where you have downloaded the webdriver.
 
