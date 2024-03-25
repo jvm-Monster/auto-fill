@@ -6,14 +6,14 @@ import time
 
 from selenium.webdriver.edge.service import Service
 
+# Get the current directory of the script
+current_dir = os.path.dirname(os.path.realpath(__file__))
+
 # Set the path to your WebDriver executable
-driver_path = "C:\\Users\Jvm-Monster\\Downloads\\reactcours\\edgedriver_win64\\msedgedriver.exe"
+driver_path = os.path.join(current_dir, "msedgedriver.exe")
 
 # Initialize the WebDriver
 driver = webdriver.Edge(service=Service(driver_path))
-
-# Get the current directory of the script
-current_dir = os.path.dirname(os.path.realpath(__file__))
 
 # Open the login page
 # Construct the path to the HTML file
