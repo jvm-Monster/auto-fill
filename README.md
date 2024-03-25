@@ -27,7 +27,7 @@ The script follows these main steps:
 - `from selenium.webdriver.edge.service import Service`: Imports the Service class for configuring the Edge webdriver service.
 - `driver_path = "C:\\Users\Jvm-Monster\Downloads\\reactcours\edgedriver_win64\msedgedriver.exe"`: Specifies the path to the msedgedriver executable.
 - `driver = webdriver.Edge(service=Service(driver_path))`: Initializes the WebDriver using the Edge webdriver service and the specified driver path.
-- `driver.get("http://127.0.0.1:5500/autofill.html")`: Opens the login page of the target website.
+- `driver.get("the script will get it by it self since the html file is in the script directory")`: Opens the login page of the target website.
 - `username_field = driver.find_element(by="id", value="username")`: Finds the username field by its ID.
 - `username_field.send_keys("Group 5 Auto Fill")`: Enters the username into the username field.
 - `password_field = driver.find_element(by="id", value="password")`: Finds the password field by its ID.
