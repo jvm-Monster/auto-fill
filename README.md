@@ -1,4 +1,4 @@
-# Auto-Fill Software Documentation
+# GRP-5 Auto-Fill Software Documentation
 
 ## Introduction
 The Auto-Fill App is a Python script designed to automate the process of filling in login credentials on websites. This script utilizes the Selenium library to interact with web elements and perform autofill functions.
